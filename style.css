@@ -1,1 +1,381 @@
+/* --- Global Styles & Reset --- */
+:root {
+    --primary-color: #004a7c; /* Deep Professional Blue */
+    --secondary-color: #f4f7f6; /* Light Grey Background */
+    --text-color: #333;
+    --highlight-color: #c93b3b; /* Red/Maroon for quantitative impact */
+    --light-border: #ddd;
+    --font-stack: 'Arial', sans-serif;
+}
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-stack);
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: #fff;
+}
+
+/* --- Layout Container --- */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* --- Header Styling --- */
+.main-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 40px 0;
+    margin-bottom: 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.profile-info h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+.profile-info h2 {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.profile-photo-container {
+    flex-shrink: 0;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+}
+
+.contact-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 0.9em;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.contact-links a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+/* --- Sticky Navigation --- */
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    z-index: 1000;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.sticky-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.sticky-nav a:hover {
+    background-color: var(--primary-color);
+}
+
+/* --- Section Styling --- */
+.section-block {
+    padding: 40px 0;
+    border-bottom: 1px solid var(--light-border);
+}
+
+.section-title {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    border-left: 4px solid var(--highlight-color);
+    padding-left: 15px;
+}
+
+.icon-left {
+    margin-right: 10px;
+}
+
+/* --- Achievement Highlight (The Shock) --- */
+.achievement-highlight {
+    color: var(--highlight-color);
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* --- Profile Summary --- */
+.role-summary h3 {
+    color: var(--primary-color);
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+/* --- Experience Timeline --- */
+.timeline-item {
+    border-left: 3px solid var(--primary-color);
+    padding: 0 0 25px 20px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.timeline-item:before {
+    content: '';
+    position: absolute;
+    left: -8px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--highlight-color);
+    border: 2px solid #fff;
+}
+
+.timeline-date {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.job-title {
+    font-size: 1.3em;
+    color: #333;
+    margin-bottom: 3px;
+}
+
+.company {
+    margin-bottom: 10px;
+}
+
+.achievements-list {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.full-cv-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: var(--highlight-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.full-cv-link:hover {
+    background-color: #a33030;
+}
+
+/* --- Project Portfolio Grid --- */
+.portfolio-section {
+    background-color: var(--secondary-color);
+    padding: 60px 0;
+}
+.section-subtitle {
+    margin-bottom: 30px;
+    font-style: italic;
+    color: #666;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.portfolio-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-top: 5px solid var(--primary-color);
+}
+
+.portfolio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-size: 0.95em;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.github-link {
+    display: inline-block;
+    color: var(--highlight-color);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.github-link:hover {
+    text-decoration: underline;
+}
+
+/* --- Education & Certifications --- */
+.education-grid {
+    display: flex;
+    gap: 40px;
+}
+
+.education-item {
+    flex: 1;
+}
+
+.education-item h3 {
+    border-bottom: 2px solid var(--light-border);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+}
+
+.education-item ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.education-item li {
+    margin-bottom: 10px;
+}
+
+.certs-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cert-badge {
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 0.85em;
+    font-weight: bold;
+    color: white;
+}
+
+.cert-badge.pmi { background-color: #007bff; }
+.cert-badge.scrum { background-color: #f05322; }
+.cert-badge.six-sigma { background-color: #28a745; }
+.cert-badge.agile { background-color: #6f42c1; }
+.cert-badge.risk { background-color: #ffc107; color: #333;}
+
+
+/* --- Skills Section --- */
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.skills-category h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    border-bottom: 1px dashed var(--light-border);
+    padding-bottom: 5px;
+}
+
+.skill-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-badge {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    border: 1px solid var(--light-border);
+    font-weight: 500;
+}
+
+/* --- Footer --- */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.8em;
+}
+
+footer a {
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+footer a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+/* --- Responsiveness: Stacking layout on small screens --- */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .profile-info {
+        order: 2; /* Put info below the photo on mobile */
+        margin-top: 20px;
+    }
+    .profile-photo-container {
+        order: 1;
+    }
+    .contact-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-links a {
+        margin: 5px 0;
+    }
+    .education-grid {
+        flex-direction: column;
+    }
+    .sticky-nav a {
+        padding: 10px 8px;
+    }
+}
