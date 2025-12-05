@@ -11,7 +11,7 @@
 
 Click the link below to view the interactive, single-page professional biography and portfolio, deployed directly from this repository.
 
-### [🌐 **VIEW LIVE CV & PORTFOLIO** 🌐]([https://github.com/fmunoz333/fernando-munoz-cv](https://fmunoz333.github.io/fernando-munoz-cv/))
+### [🌐 **VIEW LIVE CV & PORTFOLIO** 🌐](https://fmunoz333.github.io/fernando-munoz-cv/)
 
 ***
 
