@@ -1,8 +1,6 @@
-# website
-
 # 🌐 Fernando Muñoz Rivadeneira | Professional CV Showcase
 
-[![GitHub Pages](https://img.shields.io/badge/Hosted%20On-GitHub%20Pages-blue.svg)](YOUR_GITHUB_PAGES_URL_HERE)
+[![GitHub Pages](https://img.shields.io/badge/Hosted%20On-GitHub%20Pages-blue.svg)]((https://github.com/fmunoz333))
 [![HTML5](https://img.shields.io/badge/Built%20With-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://github.com/fmunoz333/fernando-munoz-cv)
 [![CSS3](https://img.shields.io/badge/Styled%20With-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://github.com/fmunoz333/fernando-munoz-cv)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -13,7 +11,7 @@
 
 Click the link below to view the interactive, single-page professional biography and portfolio, deployed directly from this repository.
 
-### [🌐 **VIEW LIVE CV & PORTFOLIO** 🌐](YOUR_GITHUB_PAGES_URL_HERE)
+### [🌐 **VIEW LIVE CV & PORTFOLIO** 🌐](https://github.com/fmunoz333/fernando-munoz-cv)
 
 ***
 
@@ -52,8 +50,3 @@ These repositories showcase tangible artifacts of my data analysis and business 
 | **GitHub Profile** | [https://github.com/fmunoz333](https://github.com/fmunoz333) |
 | **Email** | `fmunoz333@gmail.com` |
 
----
-
-### 🛑 **IMPORTANT NOTE**
-
-**Please replace all instances of `YOUR_GITHUB_PAGES_URL_HERE` in this file with the actual URL that GitHub Pages provides you** (e.g., `https://fmunoz333.github.io/fernando-munoz-cv/`) after the repository is made public and the deployment is complete.
