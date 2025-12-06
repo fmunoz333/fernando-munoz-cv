@@ -56,8 +56,8 @@ body {
     font-size: 2.5em;
     margin-bottom: 5px;
 	color: white;
-    -webkit-text-stroke: 1px var(--highlight-color);
-    text-shadow: none;
+    -webkit-text-stroke: 1.2px var(--highlight-color);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
 }
 
 .profile-info h2 {
@@ -68,21 +68,27 @@ body {
     padding-bottom: 5px;
     display: inline-block;
 	color: white;
-    -webkit-text-stroke: 0.5px var(--highlight-color);
-    text-shadow: none;
+    -webkit-text-stroke: 0.6px var(--highlight-color);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.contact-links a {
+    color: white; /* change to WHITE if needed*/
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 0.9em;
+    opacity: 1;
+    transition: color 0.3s, opacity 0.3s;
+    font-weight: bold;
 }
 
 .contact-links a i {
-    color: transparent; /* change to WHITE if needed*/
-    -webkit-text-stroke: 1.2px var(--highlight-color);
-    text-shadow: none;
+    color: white; /* WHITE FILL for the icon */
+    -webkit-text-stroke: 1px var(--highlight-color); /* RED OUTLINE for the icon */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
     font-size: 1.1em;
     margin-right: 5px;
-}
-
-.contact-links a:hover {
-    opacity: 1;
-    text-decoration: underline;
+    transition: all 0.3s;
 }
 
 /* --- Sticky Navigation --- */
