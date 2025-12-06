@@ -335,12 +335,12 @@ body {
 
 .logo-col {
     flex-shrink: 0;
-    width: 100px;
+    width: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 60px;
-	margin-right: 5px;
+	margin-right: 0px;
 }
 
 .text-col {
@@ -513,3 +513,4 @@ footer a:hover {
     }
 
 }
+
