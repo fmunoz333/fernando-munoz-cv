@@ -335,7 +335,7 @@ body {
 
 .logo-col {
     flex-shrink: 0;
-    width: 60px;
+    width: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
