@@ -30,10 +30,9 @@ body {
 
 /* --- Header Styling --- */
 .main-header {
-    /* *** START OF CUSTOM BACKGROUND CHANGE *** */
-    background-image: url('header-bg.jpg'); /* Link to your uploaded image */
-    background-size: cover; /* Ensures the image covers the entire header area */
-    background-position: center; /* Centers the image */
+    background-image: url('header-bg.jpg');
+    background-size: cover;
+    background-position: center;
     background-attachment: scroll; /* Keeps the background static or scrollable */
     /* Add a dark overlay to ensure text remains readable over the image */
     background-blend-mode: overlay; 
@@ -57,36 +56,29 @@ body {
 .profile-info h1 {
     font-size: 2.5em;
     margin-bottom: 5px;
+	color: transparent;
+    -webkit-text-stroke: 1px var(--highlight-color);
+    text-shadow: none;
 }
 
 .profile-info h2 {
     font-size: 1.2em;
-    font-weight: 300;
+    font-weight: 700;
     margin-bottom: 20px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid var(--highlight-color);
     padding-bottom: 5px;
     display: inline-block;
+	color: transparent;
+    -webkit-text-stroke: 0.5px var(--highlight-color);
+    text-shadow: none;
 }
 
-.profile-photo-container {
-    flex-shrink: 0;
-}
-
-.profile-photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 5px solid white;
-    object-fit: cover;
-}
-
-.contact-links a {
-    color: white;
-    text-decoration: none;
-    margin-right: 20px;
-    font-size: 0.9em;
-    opacity: 0.8;
-    transition: opacity 0.3s;
+.contact-links a i {
+    color: transparent; /* change to WHITE if needed*/
+    -webkit-text-stroke: 1.2px var(--highlight-color);
+    text-shadow: none;
+    font-size: 1.1em;
+    margin-right: 5px;
 }
 
 .contact-links a:hover {
@@ -198,12 +190,7 @@ body {
     width: auto;
     margin-right: 10px;
     vertical-align: middle;
-    filter: grayscale(80%);
     transition: filter 0.3s;
-}
-
-.company-logo:hover {
-    filter: none;
 }
 
 .institution-logo {
@@ -321,6 +308,54 @@ body {
     font-weight: bold;
     color: white;
 }
+
+/* --- Education Section Layout --- */
+
+.education-item ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.education-detail-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--light-border);
+}
+
+.education-detail-row:last-child {
+    border-bottom: none;
+}
+
+.logo-col {
+    flex-shrink: 0;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.text-col {
+    flex-grow: 1;
+    padding-left: 15px;
+}
+
+.institution-name {
+    display: block;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 2px;
+}
+
+/* Styling for the placeholder icon if a logo is missing */
+.text-icon {
+    font-size: 2em;
+    color: var(--primary-color);
+}
+
+/* --- Certification section --- */
 
 .cert-badge.pmi { background-color: #007bff; }
 .cert-badge.scrum { background-color: #f05322; }
