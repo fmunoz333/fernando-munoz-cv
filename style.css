@@ -30,7 +30,16 @@ body {
 
 /* --- Header Styling --- */
 .main-header {
-    background-color: var(--primary-color);
+    /* *** START OF CUSTOM BACKGROUND CHANGE *** */
+    background-image: url('header-bg.jpg'); /* Link to your uploaded image */
+    background-size: cover; /* Ensures the image covers the entire header area */
+    background-position: center; /* Centers the image */
+    background-attachment: scroll; /* Keeps the background static or scrollable */
+    /* Add a dark overlay to ensure text remains readable over the image */
+    background-blend-mode: overlay; 
+    background-color: rgba(0, 74, 124, 0.75); /* var(--primary-color) with 75% opacity for overlay */
+    /* *** END OF CUSTOM BACKGROUND CHANGE *** */
+	
     color: white;
     padding: 40px 0;
     margin-bottom: 20px;
