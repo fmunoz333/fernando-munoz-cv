@@ -335,7 +335,7 @@ body {
 
 .logo-col {
     flex-shrink: 0;
-    width: 90px;
+    width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -344,7 +344,7 @@ body {
 
 .text-col {
     flex-grow: 1;
-    padding-left: 30px;
+    padding-left: 50px;
 }
 
 .institution-logo {
@@ -512,6 +512,7 @@ footer a:hover {
     }
 
 }
+
 
 
 
