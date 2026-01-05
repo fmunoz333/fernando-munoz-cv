@@ -48,5 +48,5 @@ These repositories showcase tangible artifacts of my data analysis and business 
 | :--- | :--- |
 | **LinkedIn** | [https://www.linkedin.com/in/fernando-munoz-4737571](https://www.linkedin.com/in/fernando-munoz-4737571) |
 | **GitHub Profile** | [https://github.com/fmunoz333](https://github.com/fmunoz333) |
-| **Email** | `fmunoz333@gmail.com` |
+| **Email** | `fxmr.consult@gmail.com` |
 
