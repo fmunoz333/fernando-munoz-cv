@@ -40,6 +40,7 @@ These repositories showcase tangible artifacts of my data analysis, project mana
 | **Enterprise Budget Management System** | Power BI / Financial PMO | [View Repo](https://github.com/fmunoz333/enterprise-budget-management-system) | [Preview](https://github.com/fmunoz333/enterprise-budget-management-system#preview) |
 | **Project Management Analysis System** | Analytics / 4,000+ Projects | [View Repo](https://github.com/fmunoz333/project-management-analysis-system) | [Preview](https://github.com/fmunoz333/project-management-analysis-system#preview) |
 | **Terranova 4G 100 — PMO Rollout** | PMBOK 8th / Hybrid Agile | [View Repo](https://github.com/fmunoz333/terranova-4g-100-project-management) | [Documentation](https://github.com/fmunoz333/terranova-4g-100-project-management#readme) |
+| **Executive Project Control Dashboard** | MS Excel / VBA / Power Pivot / Power Query | [View Repo](https://github.com/fmunoz333/professional-services) | [Documentation](https://github.com/fmunoz333/executive_project_control_dashboard/blob/main/README.md) |
 | **Terranova Relational Database & SQL** | MS Access / SQL / VBA | [View Repo](https://github.com/fmunoz333/database_design) | [Documentation](https://github.com/fmunoz333/database_design#readme) |
 | **Professional Analytics Services** | Consulting & Automation | [View Repo](https://github.com/fmunoz333/professional-services) | [Live Site](https://fmunoz333.github.io/professional-services/) |
 
