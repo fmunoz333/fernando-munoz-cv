@@ -1,8 +1,8 @@
 # 🌐 Fernando Muñoz Rivadeneira | Professional CV Showcase
 
-[![GitHub Pages](https://img.shields.io/badge/Hosted%20On-GitHub%20Pages-blue.svg)]((https://github.com/fmunoz333))
-[![HTML5](https://img.shields.io/badge/Built%20With-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://github.com/fmunoz333/fernando-munoz-cv)
-[![CSS3](https://img.shields.io/badge/Styled%20With-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://github.com/fmunoz333/fernando-munoz-cv)
+[![GitHub Pages](https://img.shields.io/badge/Hosted%20On-GitHub%20Pages-blue.svg)](https://fmunoz333.github.io/fernando-munoz-cv/)
+[![PMP Certified](https://img.shields.io/badge/Certification-PMP%C2%AE-gold.svg)](https://www.pmi.org/)
+[![Built With HTML5/CSS3](https://img.shields.io/badge/Built%20With-HTML5%20%7C%20CSS3-E34F26.svg)](https://github.com/fmunoz333/fernando-munoz-cv)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
@@ -11,9 +11,9 @@
 
 Click the link below to view the interactive, single-page professional biography and portfolio, deployed directly from this repository.
 
-### [🌐 **VIEW LIVE CV & PORTFOLIO** 🌐](https://fmunoz333.github.io/fernando-munoz-cv/)
+### 🌐 [**VIEW LIVE CV & PORTFOLIO SHOWCASE**](https://fmunoz333.github.io/fernando-munoz-cv/) 🌐
 
-***
+---
 
 ## Executive Summary
 
@@ -23,30 +23,37 @@ I specialize in transforming complex technology visions into reality by architec
 
 ### Key Expertise Snapshot:
 
-*   **Program & PMO Leadership:** Managed an **$84M annual investment program** and a **$73M BSS/OSS transformation**, driving a culture of execution excellence and predictable delivery.
-*   **Data & Business Intelligence:** Architected and deployed **Microsoft Power BI** solutions for executive-level reporting, risk analysis, and **$4.57 Billion** project portfolio optimization.
-*   **Operational Excellence:** Six Sigma Black Belt certified, achieving a **58% reduction in site delivery time** and implementing ITIL-based frameworks that **boosted operational efficiency by 58%**.
-*   **Risk & Business Continuity:** Authored and institutionalized the first **Crisis Management Plan** and **Business Continuity Policy** for a National Telecommunications Corporation.
+* 📊 **Program & PMO Leadership:** Managed an **$84M annual investment program** and a **$73M BSS/OSS transformation**, driving a culture of execution excellence and predictable delivery.
+* 📈 **Data & Business Intelligence:** Architected and deployed **Microsoft Power BI** and **SQL/Python** solutions for executive-level reporting, risk analysis, and **$4.57 Billion** project portfolio optimization.
+* ⚙️ **Operational Excellence:** Six Sigma Black Belt certified, achieving a **58% reduction in site delivery time** and implementing ITIL-based frameworks that **boosted operational efficiency by 58%**.
+* 🛡️ **Risk & Business Continuity:** Authored and institutionalized the first **Crisis Management Plan** and **Business Continuity Policy** for a National Telecommunications Corporation.
 
 ---
 
 ## Project Portfolio Highlights (GitHub Repositories)
 
-These repositories showcase tangible artifacts of my data analysis and business intelligence expertise:
+These repositories showcase tangible artifacts of my data analysis, project management discipline, and business intelligence expertise:
 
-| Project Name | Description | Repository Link |
-| :--- | :--- | :--- |
-| **Telecommunications Network Analysis** | A Power BI solution providing insights on Customer Churn, Network Performance, and Revenue Optimization. | [View Repo](https://github.com/fmunoz333/telecom-analytics-dashboard) |
-| **Enterprise Budget Management System** | A BI solution consolidating fragmented financial data for real-time C-level visibility over multi-million-dollar contracts. | [View Repo](https://github.com/fmunoz333/enterprise-budget-management-system) |
-| **Project Management Analysis System** | An analytics platform for portfolio optimization, risk management, and resource allocation across 4,000+ enterprise projects. | [View Repo](https://github.com/fmunoz333/project-management-analysis-system) |
+| Project Name | Primary Domain | Repository Link | Live Showcase |
+| :--- | :--- | :--- | :--- |
+| **Telecommunications Network Analysis** | Power BI / Telecom BI | [View Repo](https://github.com/fmunoz333/telecom-analytics-dashboard) | [Preview](https://github.com/fmunoz333/telecom-analytics-dashboard#preview) |
+| **Enterprise Budget Management System** | Power BI / Financial PMO | [View Repo](https://github.com/fmunoz333/enterprise-budget-management-system) | [Preview](https://github.com/fmunoz333/enterprise-budget-management-system#preview) |
+| **Project Management Analysis System** | Analytics / 4,000+ Projects | [View Repo](https://github.com/fmunoz333/project-management-analysis-system) | [Preview](https://github.com/fmunoz333/project-management-analysis-system#preview) |
+| **Terranova 4G 100 — PMO Rollout** | PMBOK 8th / Hybrid Agile | [View Repo](https://github.com/fmunoz333/terranova-4g-100-project-management) | [Documentation](https://github.com/fmunoz333/terranova-4g-100-project-management#readme) |
+| **Terranova Relational Database & SQL** | MS Access / SQL / VBA | [View Repo](https://github.com/fmunoz333/database_design) | [Documentation](https://github.com/fmunoz333/database_design#readme) |
+| **Professional Analytics Services** | Consulting & Automation | [View Repo](https://github.com/fmunoz333/professional-services) | [Live Site](https://fmunoz333.github.io/professional-services/) |
 
 ---
 
 ## Contact & Professional Links
 
-| Platform | Link |
-| :--- | :--- |
-| **LinkedIn** | [https://www.linkedin.com/in/fernando-munoz-4737571](https://www.linkedin.com/in/fernando-munoz-4737571) |
-| **GitHub Profile** | [https://github.com/fmunoz333](https://github.com/fmunoz333) |
-| **Email** | fxmr.consult@gmail.com |
+- **LinkedIn Profile:** [linkedin.com/in/fernando-munoz-4737571](https://www.linkedin.com/in/fernando-munoz-4737571)
+- **Professional Services:** [fmunoz333.github.io/professional-services](https://fmunoz333.github.io/professional-services/)
+- **Direct Email:** [fxmr.consult@gmail.com](mailto:fxmr.consult@gmail.com)
+- **Location:** Quito, Ecuador (Available for Remote Global Consulting)
 
+---
+
+<div align="center">
+  <sub>© 2026 Fernando Muñoz Rivadeneira — All Rights Reserved. Last Updated: November 2026</sub>
+</div>
