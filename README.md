@@ -18,7 +18,7 @@ Technology and project-management leader with **30+ years of experience** across
 
 ## 🏅Selected Achievements
 
-- Led governance and execution of an **$84M annual investment program** across 5 programs, 14 projects and 141 contracts.
+- Led governance and execution of an **$84M annual investment program** across 5 programs, 16 projects and 104 contracts.
 - Helped complete a stalled **$27.7M transport network expansion project** after a nine-year period.
 - Supported delivery of 3G connectivity to **87,000 people across 30 rural communities** through reuse of existing network assets.
 - Led a corporate Business Impact Analysis covering **600+ processes**, avoiding more than **$600,000** in external consulting fees.
